@@ -1,0 +1,94 @@
+.table-wrapper{
+    width: 100%;
+}
+.table{
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px rgb(158, 198, 235) ;
+    border-radius: 10px;
+    white-space:nowrap ;
+    width: 100em;
+    max-width: 80%;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+}
+.head11{
+    background-color: rgb(105, 226, 230);
+    color: black;
+}
+.table th,
+.table td{
+    padding: 0.8rem;
+}
+.table td{
+    border-top: 0.5px solid rgb(77, 142, 211);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.table tbody tr:hover{
+    background-color: #eee;
+
+}
+.k1{
+    width: 100%;
+}
+.v1{
+    width: 100%;
+}
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+.actions svg{
+    cursor: pointer;
+}
+
+.delete-btn{
+    margin-left: 3px;
+}
+
+.edit-btn{
+  margin-left: 3px;
+}
+.view-btn{
+    margin-right: 3px;
+}
+/* .switch{
+    position:relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 10px;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+.switch input{display: none;}
+.slider::before{
+    position:absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+input:checked + .slider{
+    background-color:blue;
+}
+input:checked + .slider::before{
+    transform:translate(50px);
+} */
